@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # monitor used CPU 
-# powered by mrxn
-# blog: https://mrxn.net/ 
+# powered by mion
+
 # please use bash command  run  this script like this bash freecpu.sh
 
 #def & get the .X1-lock cpu% and pid
