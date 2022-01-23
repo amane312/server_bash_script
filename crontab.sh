@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # add plan to crontab 
-# powered by mrxn
-# blog: https://mrxn.net/ 
+# powered by mion
+
 # please use bash command  run  this script like this bash crontab.sh 
 crontab -l > crontab.bak
 echo "* * * * * /root/shell/freemem.sh" >> crontab.bak
