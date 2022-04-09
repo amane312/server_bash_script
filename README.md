@@ -22,16 +22,16 @@
 
 
 >autorun.sh график ажиллуулах 
-![autorun.sh дэлгэцийн агшинг ажиллуулах ](https://github.com/amane312/server-bash-script/blob/master/img/autorun.sh%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.png?raw=true)  
+![autorun.sh дэлгэцийн агшинг ажиллуулах ](https://github.com/amane312/server_bash_script/blob/main/img/autorun.png?raw=true)  
 
 >freemem.sh ажиллуулж байгаа дэлгэцийн агшин   
->![freemem.sh дэлгэцийн агшинг ажиллуулах ](https://github.com/amane312/server-bash-script/blob/master/img/freemem.sh%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.png?raw=true) 
+>![freemem.sh дэлгэцийн агшинг ажиллуулах ](https://github.com/amane312/server_bash_script/blob/main/img/freemem.png?raw=true) 
 
 >freecpu.sh ажиллаж байгаа дэлгэцийн агшин 
-![freecpu.sh дэлгэцийн агшинг ажиллуулах ](https://raw.githubusercontent.com/amane312/server-bash-script/master/img/freecpu.sh%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.png?raw=true)  
+![freecpu.sh дэлгэцийн агшинг ажиллуулах ](https://github.com/amane312/server_bash_script/blob/main/img/freecpu.png?raw=true)  
 
 >crontab.sh ажиллаж байгаа дэлгэцийн агшин 
-![crontab.sh дэлгэцийн агшинг ажиллуулах ](https://github.com/amane312/server-bash-script/blob/master/img/crontab.sh%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.png?raw=true)  
+![crontab.sh дэлгэцийн агшинг ажиллуулах ](https://github.com/amane312/server_bash_script/blob/main/img/crontab.png?raw=true)  
 
 
 ```shell
