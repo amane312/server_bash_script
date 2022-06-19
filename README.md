@@ -1,44 +1,41 @@
-###update 2022-01-23 update_proxy.sh
+# Website
 
-# server-bash-script
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-####  Товч танилцуулга 
->* --autorun.sh
-> -- Nginx, 
-> mysql, 
-> v2ray  
-> зэрэг өндөр ачаалалтай үйлдэлийг дахин эхлүүлэхийн тулд системийн ачааллыг хянах  зориулалт бүхий Linux скрипт.
-Жишээ: Одоогын байдлаар зөвхөн Debian+lnmp орчинд туршиж үзсэн болно.
+### Installation
 
->* --freemem.sh
-> -- vps 
-> санах ойг хянах скрипт.
->* --freecpu.sh
-> -- vps заасан процессыг устгадаг. Зарим процессууд хэт их үүр эзэлдэг бол та энэ хүү скриптийг ашиглан тэдгээрийг хянаж, устгаж болно .  
->*--crontab.sh
-> -- Crontab хуваарьт даалгавруудыг нэмэхийн тулд бүрхүүлийг ашиглана
-
->**Бүтэц агшин** 
-
-
->autorun.sh график ажиллуулах 
-![autorun.sh дэлгэцийн агшинг ажиллуулах ](https://github.com/amane312/server_bash_script/blob/main/img/autorun.png?raw=true)  
-
->freemem.sh ажиллуулж байгаа дэлгэцийн агшин   
->![freemem.sh дэлгэцийн агшинг ажиллуулах ](https://github.com/amane312/server_bash_script/blob/main/img/freemem.png?raw=true) 
-
->freecpu.sh ажиллаж байгаа дэлгэцийн агшин 
-![freecpu.sh дэлгэцийн агшинг ажиллуулах ](https://github.com/amane312/server_bash_script/blob/main/img/freecpu.png?raw=true)  
-
->crontab.sh ажиллаж байгаа дэлгэцийн агшин 
-![crontab.sh дэлгэцийн агшинг ажиллуулах ](https://github.com/amane312/server_bash_script/blob/main/img/crontab.png?raw=true)  
-
-
-```shell
-curl 127.0.0.1:5010/get_all/ > proxy.txt
-sed -i "s/\[//" proxy.txt
-sed -i "s/\]//" proxy.txt
-sed -i "s/\"//g" proxy.txt
-sed -i '/^\s*$/d' proxy.txt
-sed -i 's/^[ ]*//g' proxy.txt
 ```
+$ yarn
+```
+
+### Local Development
+
+```
+$ yarn start
+```
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+### Build
+
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
